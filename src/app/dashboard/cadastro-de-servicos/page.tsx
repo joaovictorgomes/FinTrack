@@ -1,15 +1,16 @@
-import Link from "next/link";
+import DashboardHeader from "@/components/dashboard-header";
+
+import metadata from "./metadata.json";
 
 export default function CadastroDeServicos() {
   return (
     <div>
-      <h1>Cadastro de Serviços</h1>
-      {/* Conteúdo da página de cadastro */}
-      <button>
-        <Link href="/dashboard/cadastro-de-servicos/create">
-          Ir para Create
-        </Link>
-      </button>
+      <DashboardHeader
+        title={metadata.title}
+        description={metadata.description}
+        goBack={true}
+        isCreate={true}
+      ></DashboardHeader>
     </div>
   );
 }

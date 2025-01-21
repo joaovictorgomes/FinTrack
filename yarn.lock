@@ -2347,6 +2347,11 @@ lucide-react@^0.473.0:
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.473.0.tgz#f01dcde458e55bce766a282f4f5894970a9f24ac"
   integrity sha512-KW6u5AKeIjkvrxXZ6WuCu9zHE/gEYSXCay+Gre2ZoInD0Je/e3RBtP4OHpJVJ40nDklSvjVKjgH7VU8/e2dzRw==
 
+lucide@^0.473.0:
+  version "0.473.0"
+  resolved "https://registry.yarnpkg.com/lucide/-/lucide-0.473.0.tgz#3f6974c5039ca2b4637aae30919de222d687e8cc"
+  integrity sha512-UIUNzfoXpYQQKiQO1M0bOOwv1BJt8EYSSFJt2HsVv39nd97lvA5H80Z+pmmeiW0cheUmWNpvh5w4JI0eZypd4Q==
+
 math-intrinsics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
