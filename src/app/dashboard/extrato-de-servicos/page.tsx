@@ -1,8 +1,14 @@
+import DashboardHeader from "@/components/dashboard-header";
+
+import metadata from "./metadata.json"
+
 export default function ExtratoDeServicos() {
+
   return (
     <div>
-      <h1>Extrato de Serviços</h1>
-      {/* Conteúdo da página de extrato */}
+     <DashboardHeader title={metadata.title} description={metadata.description} goBack={true}>
+      teste
+     </DashboardHeader>
     </div>
   );
 }
