@@ -4,7 +4,7 @@ import DashboardHeader from "@/components/dashboard-header";
 export default function Dashboard() {
   return (
     <div>
-      <div className="px-10 py-12">
+      <div className="my-10">
         <DashboardCard>
           <DashboardHeader title="Dashboard"></DashboardHeader>
         </DashboardCard>

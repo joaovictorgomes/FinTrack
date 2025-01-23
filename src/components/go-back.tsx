@@ -7,7 +7,7 @@ export default function GoBack() {
       <Button
         variant="default"
         size="sm"
-        className="text-gray-500 hover:text-gray-700 transition-colors duration-200 ease-in-out"
+        className="bg-zinc-950 transition-colors duration-200 ease-in-out"
         onClick={() => window.history.back()}
       >
         <ArrowLeft className="size-6" />
