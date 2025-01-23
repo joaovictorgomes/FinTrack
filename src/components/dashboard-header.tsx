@@ -22,7 +22,7 @@ export default function DashboardHeader({
   return (
     <div>
       <div className="flex justify-between items-center">
-        <div className="flex items-center gap-4">
+        <div className="mt-4 flex items-center gap-4">
           {goBack && <GoBack />}
           <div className="flex flex-col items-start pt-6">
             <h1 className="text-4xl font-bold">{title}</h1>
@@ -30,7 +30,7 @@ export default function DashboardHeader({
           </div>
         </div>
         {isCreate && (
-          <Button variant="default" size="sm">
+          <Button variant="default" size="sm" className="bg-blue-500">
             <Link href="/dashboard/cadastro-de-servicos/create">Create</Link>
           </Button>
         )}
