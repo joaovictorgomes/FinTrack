@@ -24,10 +24,10 @@ const Menu = [
 export default function Navbar() {
   return (
     <header>
-      <nav className="h-16 bg-opaque p-3">
-        <div className="flex flex-row gap-20 items-center">
+      <nav className="py-2 bg-neutral-950">
+        <div className="flex flex-row gap-20 items-center sectionwrapper">
           {/* Logo e título */}
-          <Link className="flex flex-row gap-2 items-center ml-2" href="/dashboard">
+          <Link className="flex flex-row gap-2 items-center" href="/dashboard">
             <Command size={24} />
             <p className="text-lg text-white">FinTrack</p>
           </Link>
@@ -52,7 +52,9 @@ export default function Navbar() {
             <div>
               <Avatar className="size-7">
                 <AvatarImage />
-                <AvatarFallback className="text-sm text-black">LG</AvatarFallback>
+                <AvatarFallback className="text-sm text-black">
+                  LG
+                </AvatarFallback>
               </Avatar>
             </div>
           </div>
